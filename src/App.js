@@ -1,15 +1,17 @@
-import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import React from 'react';
+import About from './components/About';
+import Contact from './components/Contact';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 
 function App() {
   return (
-  <div className="App">
-  <Header />
-  <Main />
-  <Footer />
-  </div>
+  <main className='text-gray-400 bg-gray-900 body-font'>
+  <Navbar />
+  <About />
+  <Projects />
+  <Contact />
+  </main>
   )
 }
 
