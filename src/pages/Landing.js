@@ -1,4 +1,6 @@
-function Landing() {
+import { Link } from 'react-router-dom';
+
+function Landing(props) {
     return (
     <section id="landing">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -14,10 +16,10 @@ function Landing() {
                     Laborum, voluptas natus?
                 </p>
                 <div className="flex justify-center">
-                    <a href="#contact"
+                    <Link href="/contact"
                         className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                         Contact
-                    </a>
+                    </Link>
                     {/* <a href="#projects"
                         className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                         Projects
@@ -32,4 +34,4 @@ function Landing() {
     )
     }
     
-    export default Landing
+    export default Landing;
