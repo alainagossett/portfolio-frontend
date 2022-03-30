@@ -1,8 +1,7 @@
 import React from 'react';
-import { Route, Router } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
-import Main from './components/Main';
 
 import Landing from './pages/Landing';
 import About from './pages/About';
@@ -13,8 +12,7 @@ function App() {
 return (
 <div className='text-gray-400 bg-gray-900 body-font'>
   <Navbar />
-  <Main />
-  <Router>
+  <Switch>
     <Route exact path='/'>
       <Landing />
     </Route>
@@ -27,7 +25,7 @@ return (
     <Route path='/projects'>
       <Projects />
     </Route>
-  </Router>
+  </Switch>
 </div>
 )
 }
