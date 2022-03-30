@@ -1,5 +1,13 @@
-function Header() {
-    return <h1>Alaina Gossett Portfolio</h1>
+import { Link } from 'react-router-dom'
+
+function Header(props) {
+    return (
+        <nav className='nav'>
+            <Link to='/'>
+                <div>My Portfolio</div>
+            </Link>
+        </nav>
+    )
 }
 
 export default Header;
