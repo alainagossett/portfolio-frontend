@@ -1,7 +1,10 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
+import './App.css';
+
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 import Landing from './pages/Landing';
 import About from './pages/About';
@@ -12,7 +15,7 @@ function App() {
 return (
 <div className='text-gray-400 bg-gray-900 body-font'>
   <Navbar />
-  <Switch>
+  <Switch className="main">
     <Route exact path='/'>
       <Landing />
     </Route>
@@ -26,6 +29,7 @@ return (
       <Projects />
     </Route>
   </Switch>
+  <Footer />
 </div>
 )
 }
