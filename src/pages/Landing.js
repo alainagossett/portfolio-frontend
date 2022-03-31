@@ -16,7 +16,7 @@ function Landing(props) {
                     Welcome to my portfolio site! I'd like to showcase some recent projects I've worked on as well as give you a better idea of who I am as a Software Engineer. 
                 </p>
                 <div className="flex justify-center">
-                    <Link href="/contact"
+                    <Link to="/contact"
                         className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                         Contact
                     </Link>
