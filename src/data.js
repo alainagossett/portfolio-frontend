@@ -3,8 +3,8 @@ export const projects = [
       title: "Random Activity Generator",
       subtitle: "JavaScript, jQuery, HTML and CSS",
       description:
-        "A simple web app based on a public API that generates a random activity based on a user’s query parameters.",
-      image: "./project-1.gif",
+        "A simple web app that uses public API to generate a random activity based on a user’s query parameters. This API Uses the Activity Generator API.",
+      image: "./RandomActivityGenerator.gif",
       link: "https://generaterandomactivity.netlify.app/",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "JavaScript, Node, Express, MongoDB and CSS",
       description:
         "A full CRUD web-based app to help any house plant enthusiast keep track of their plants. Also includes the ability to upload images from a users’ own collection.",
-      image: "./project-2.gif",
+      image: "./PlantManager.gif",
       link: "https://plant-manager-seirphx.herokuapp.com/plants/root",
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
       subtitle: "React, Firebase, Sass and REST",
       description:
         "A full stack MERN app that utilizes NPS.gov’s open API and Google Firebase for authentication. Users can peruse national park data and add/remove/update parks in their favorites list.",
-      image: "./project-3.gif",
+      image: "./NationalParksPlanner.gif",
       link: "https://national-parks-planner.netlify.app/",
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
       subtitle: "Python and Django",
       description:
         "A makeup app designed for the socially conscious consumer in mind, Palettable is a full stack app that uses Django’s built in authentication to allow users to browse products, favorite them, and customize looks.",
-      image: "./project-4.gif",
+      image: "./Palettable.gif",
       link: "https://palettable-app.herokuapp.com/",
     },
   ];
