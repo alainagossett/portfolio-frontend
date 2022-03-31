@@ -19,9 +19,9 @@ return (
         </div>
         <div className="flex flex-wrap -m-4">
             {projects.map((project) => (
-            <a href="{project.link}" key={project.image} className="sm:w-1/2 w-100 p-4">
+            <a href={project.link} key={project.image} className="sm:w-1/2 w-100 p-4" target="_blank" rel="noopener noreferrer">
                 <div className="flex relative">
-                    <img src="{project.image}" alt="{project.title}"
+                    <img src={project.image} alt="{project.title}"
                         className='absolute inset-0 w-full h-full object-cover object-center' />
                     <div
                         className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
