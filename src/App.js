@@ -1,16 +1,37 @@
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
+
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+import Landing from './pages/Landing';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+
 function App() {
-  return (
-  <div className="App">
-  <Header />
-  <Main />
+return (
+<div className='text-gray-400 bg-gray-900 body-font'>
+  <Navbar />
+  <Switch className="main">
+    <Route exact path='/'>
+      <Landing />
+    </Route>
+    <Route path='/about'>
+      <About />
+    </Route>
+    <Route path='/contact'>
+      <Contact />
+    </Route>
+    <Route path='/projects'>
+      <Projects />
+    </Route>
+  </Switch>
   <Footer />
-  </div>
-  )
+</div>
+)
 }
 
 export default App;
