@@ -11,7 +11,7 @@ return (
                 About Me
             </h1>
             <p className="mb-8 leading-relaxed">
-            A personable and results-driven software engineer, I find the most joy in figuring out how things work and creatively solving problems for my clients.
+            A personable and results-driven software engineer, I find joy in figuring out how things work and creatively solving problems for my clients.
             </p>
             <p className="mb-8 leading-relaxed">
             I have over 4 years experience in the tech industry, specifically in the SaaS space. My experience in client-facing and inter-departmental roles paired with my two degrees from CU Boulder have given me the tools to translate client needs effectively to more technical language.

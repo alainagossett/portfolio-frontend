@@ -7,10 +7,13 @@ function Contact() {
             <h1 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                 Find Me Here:
             </h1>
-            <h2 className="title-font sm:text-2xl text-1xl mb-2 font-medium hover:text-white">
-                <a href="mailto:alaina.gossett@gmail.com">alaina.gossett@gmail.com</a>
-            </h2>
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <p className="mb-8 leading-relaxed">
+            <a href="mailto:alaina.gossett@gmail.com">
+            <img className="contactImg" src="https://i.imgur.com/QmFKysc.png" alt="email" />
+            </a>
+            </p>
+            <br className="hidden lg:inline-block" />
             <p className="mb-8 leading-relaxed">
             <a href="https://github.com/alainagossett" target="_blank" rel="noopener noreferrer">
             <img className="contactImg" src="https://i.imgur.com/kpXSyl1.png" alt="gitHub" />
