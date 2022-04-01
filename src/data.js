@@ -25,7 +25,7 @@ export const projects = [
     },
     {
       title: "Palettable",
-      subtitle: "Python and Django",
+      subtitle: "Python, Django, Materialize",
       description:
         "A makeup app designed for the socially conscious consumer in mind, Palettable is a full stack app that uses Django’s built in authentication to allow users to browse products, favorite them, and customize looks.",
       image: "./Palettable2x.gif",

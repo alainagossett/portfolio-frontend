@@ -10,7 +10,7 @@ left: 0;
 bottom: 0;
 right: 0;
 color: #fff;
-background-color: #111826;
+background-color: #84CAF0;
 
 img {
     height: 2rem;

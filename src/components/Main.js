@@ -7,7 +7,7 @@ import Projects from '../pages/Projects';
 
 function Main() {
   return (
-  <main className='text-gray-400 bg-gray-900 body-font'>
+  <main >
   <Landing />
   <About />
   <Projects />

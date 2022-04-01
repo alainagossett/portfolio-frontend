@@ -13,7 +13,7 @@ import Projects from './pages/Projects';
 
 function App() {
 return (
-<div className='text-gray-400 bg-gray-900 body-font'>
+<div className='text-white bg-purple body-font'>
   <Navbar />
   <Switch className="main">
     <Route exact path='/'>
