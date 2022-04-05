@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-// import { ArrowRightIcon } from "@heroicons/react/solid";
 
 function Navbar() {
     return (
