@@ -17,7 +17,7 @@ return (
             I have over 4 years experience in the tech industry, specifically in the SaaS space. My experience in client-facing and inter-departmental roles paired with my two degrees from CU Boulder have given me the tools to translate client needs effectively to more technical language.
             </p>
             <p className="mb-8 leading-relaxed">
-            
+            When I'm not coding, I enjoy hiking, swimming, and going to music festivals. I'm a Coloradan through and through and love bringing my determined spirit to all projects/challenges I'm given.
             </p>
             <div className="flex justify-left">
             <a href="https://docs.google.com/document/d/1ZWtIWojzA43KWNkCdSKBgalFSjyw-c__wZMLqznZ8-0/edit?usp=sharing" className="inline-flex text-white bg-fuchsia-500 border-0 py-2 px-6 focus:outline-none hover:bg-fuchsia-600 rounded text-lg" download>
