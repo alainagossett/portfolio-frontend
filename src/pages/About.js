@@ -7,7 +7,7 @@ return (
             </div>
         <div
             className="lg:w-1/2 md:w-1/3 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-            <h1 className="text-grey sm:text-4xl text-3xl mb-1 font-medium title-font">
+            <h1 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                 About Me
             </h1>
             <p className="mb-8 leading-relaxed">
@@ -20,7 +20,7 @@ return (
             When I'm not coding, I enjoy hiking, swimming, and going to music festivals. I'm a Coloradan through and through and love bringing my determined spirit to all projects/challenges I'm given.
             </p>
             <div className="flex justify-left">
-            <a href="https://docs.google.com/document/d/1ZWtIWojzA43KWNkCdSKBgalFSjyw-c__wZMLqznZ8-0/edit?usp=sharing" className="inline-flex text-white bg-fuchsia-500 border-0 py-2 px-6 focus:outline-none hover:bg-fuchsia-600 rounded text-lg" download>
+            <a href="./AlainaGossett_Resume032022.pdf" className="inline-flex text-white bg-fuchsia-500 border-0 py-2 px-6 focus:outline-none hover:bg-fuchsia-600 rounded text-lg" download>
             Download my Resume
             </a>
             </div>

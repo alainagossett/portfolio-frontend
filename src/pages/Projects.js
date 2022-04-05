@@ -7,8 +7,8 @@ return (
 <section id="projects" className='text-indigo-300 bg-slate-800 body-font'>
     <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-            <CodeIcon className="mx-auto inline-block w-10 mb-4 text-grey" />
-            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-grey">
+            <CodeIcon className="mx-auto inline-block w-10 mb-4 text-indigo-300" />
+            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                 Apps I've Built
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -26,10 +26,10 @@ return (
                         <h3 className="tracking-widest text-sm title-font font-medium text-fuchsia-500 mb-1">
                             {project.subtitle}
                         </h3>
-                        <h1 className="title-font text-lg font-medium text-grey mb-3">
+                        <h1 className="title-font text-lg font-medium text-white mb-3">
                             {project.title}
                         </h1>
-                        <p className="leading-relaxed text-grey">{project.description}</p>
+                        <p className="leading-relaxed text-indigo-300">{project.description}</p>
                     </div>
                 </div>
             </a>
