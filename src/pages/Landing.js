@@ -17,7 +17,7 @@ function Landing(props) {
                 </p>
                 <div className="flex justify-center">
                     <Link to="/contact"
-                        className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                        className="inline-flex text-white bg-fuchsia-500 border-0 py-2 px-6 focus:outline-none hover:bg-fuchsia-600 rounded text-lg">
                         Contact
                     </Link>
                 </div>

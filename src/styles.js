@@ -9,7 +9,7 @@ position: fixed;
 left: 0;
 bottom: 0;
 right: 0;
-color: #fff;
+color: #a5b4fc;
 background-color: #111826;
 
 img {

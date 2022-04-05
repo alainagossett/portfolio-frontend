@@ -4,7 +4,7 @@ import { projects } from '../data';
 
 function Projects() {
 return (
-<section id="projects" className='text-gray-400 bg-gray-900 body-font'>
+<section id="projects" className='text-indigo-300 bg-slate-800 body-font'>
     <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
             <CodeIcon className="mx-auto inline-block w-10 mb-4" />
@@ -25,7 +25,7 @@ return (
                         className='absolute inset-0 w-full h-full object-contain object-center' />
                     <div
                         className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                        <h3 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                        <h3 className="tracking-widest text-sm title-font font-medium text-fuchsia-500 mb-1">
                             {project.subtitle}
                         </h3>
                         <h1 className="title-font text-lg font-medium text-white mb-3">
