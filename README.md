@@ -3,7 +3,7 @@
 Hi, my name is Alaina. I made this app using React.js to showcase the projects I've completed and hopefully present a compelling story of my software engineering journey.
 
 ## Live link
-[Click Here](INSERT LINK)
+[Click Here](https://alainagossett.com/)
 
 ## Technologies Used
 * React  
