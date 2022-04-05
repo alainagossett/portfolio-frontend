@@ -20,7 +20,7 @@ return (
             When I'm not coding, I enjoy hiking, swimming, and going to music festivals. I'm a Coloradan through and through and love bringing my determined spirit to all projects/challenges I'm given.
             </p>
             <div className="flex justify-left">
-            <a href="./AlainaGossett_Resume032022.pdf" className="inline-flex text-white bg-fuchsia-500 border-0 py-2 px-6 focus:outline-none hover:bg-fuchsia-600 rounded text-lg" download>
+            <a href="./AlainaGossett_Resume_03-2022.pdf" className="inline-flex text-white bg-fuchsia-500 border-0 py-2 px-6 focus:outline-none hover:bg-fuchsia-600 rounded text-lg" download>
             Download my Resume
             </a>
             </div>
