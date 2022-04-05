@@ -12,9 +12,7 @@ return (
                 Apps I've Built
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-                facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-                fuga dolore.
+            Click on one of the tiles below to check out the live app. Each app uses a slightly different tech stack to demonstrate my skills in each.
             </p>
         </div>
         <div className="flex flex-wrap -m-4">
