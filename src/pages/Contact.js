@@ -16,7 +16,7 @@ function Contact() {
             <br className="hidden lg:inline-block" />
             <p className="mb-8 leading-relaxed">
             <a href="https://github.com/alainagossett" target="_blank" rel="noopener noreferrer">
-            <img className="contactImg" src="https://i.imgur.com/kpXSyl1.png" alt="gitHub" />
+            <img className="contactImg" src="https://i.imgur.com/eH7Qm2V.png" alt="gitHub" />
             </a>
             </p>
             <br className="hidden lg:inline-block" />
