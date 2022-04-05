@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { CodeIcon } from '@heroicons/react/solid';
 import { projects } from '../data';
 
