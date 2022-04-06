@@ -23,7 +23,7 @@ function Landing(props) {
                 </div>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img src="https://i.imgur.com/TpIpPKu.jpg" alt="Alaina Gossett" className="object-cover object-center rounded" />
+                <img src="./Landing_Page040522.JPEG" alt="Alaina Gossett" className="object-cover object-center rounded" />
             </div>
         </div>
     </section>

@@ -17,7 +17,7 @@ export const projects = [
     },
     {
       title: "National Parks Planner",
-      subtitle: "React, Firebase, Sass and REST",
+      subtitle: "React, Node.js, Express, Firebase, Sass and REST",
       description:
         "A full stack MERN app that utilizes NPS.gov’s open API and Google Firebase for authentication. Users can peruse national park data and add/remove/update parks in their favorites list.",
       image: "./NationalParks040522.gif",
@@ -35,7 +35,7 @@ export const projects = [
         title: "Random Activity Generator",
         subtitle: "JavaScript, jQuery, HTML and CSS",
         description:
-          "A simple web app that uses public API to generate a random activity based on a user’s query parameters. This API Uses the Activity Generator API.",
+          "A simple web app that uses public API to generate a random activity based on a user’s query parameters. This app Uses the Activity Generator API.",
         image: "./RandomActivityGenerator040522.gif",
         link: "https://generaterandomactivity.netlify.app/",
       },
